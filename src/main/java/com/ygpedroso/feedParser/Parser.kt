@@ -13,7 +13,7 @@ import java.util.*
 
 class Parser {
     private var feed: Any
-    private lateinit var type: Type
+    private var type: Type
     private val registryMatcher: RegistryMatcher = RegistryMatcher()
     private var serializer: Persister
 
