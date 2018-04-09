@@ -1,4 +1,4 @@
-group 'ygpedroso'
+group 'com.ygpedroso'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -13,6 +13,7 @@ buildscript {
 }
 
 apply plugin: 'java'
+apply plugin: 'maven'
 apply plugin: 'kotlin'
 
 sourceCompatibility = 1.8
