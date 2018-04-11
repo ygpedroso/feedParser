@@ -1,4 +1,6 @@
-#FeedParser
+# FeedParser
+
+[![language: kotlin](https://img.shields.io/badge/language-kotlin-blue.svg)](https://kotlinlang.org/) [![language: java](https://img.shields.io/badge/language-java-orange.svg)](https://kotlinlang.org/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ygpedroso/feedParser/blob/master/LICENSE)
 
 ## Installation
 ### Gradle
