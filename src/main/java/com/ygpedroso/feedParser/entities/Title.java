@@ -8,8 +8,8 @@ import org.simpleframework.xml.Text;
 public class Title {
 
     @Text
-    String value;
+    public String value;
 
     @Attribute(name = "type", required = false)
-    String type;
+    public String type;
 }

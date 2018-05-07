@@ -19,50 +19,50 @@ import java.util.*;
 public class Item {
 
     @ElementList(entry = "title", inline = true, data = true)
-    List<Title> titles;
+    public List<Title> titles;
 
     @Element(name = "link")
-    String link;
+    public String link;
 
     @Element(name = "url", required = false)
-    String url;
+    public String url;
 
     @ElementList(entry = "description", inline = true, data = true)
-    List<String> descriptions;
+    public List<String> descriptions;
 
     @Element(name = "encoded", data = true, required = false)
-    String encoded;
+    public String encoded;
 
     @Element(name = "author", required = false)
-    String author;
+    public String author;
 
     @Element(name = "creator", required = false, data = true)
-    String creator;
+    public String creator;
 
     @ElementList(entry = "category", inline = true, required = false)
-    List<String> categories;
+    public List<String> categories;
 
     @ElementList(entry = "comments", inline = true, required = false)
-    List<String> comments;
+    public List<String> comments;
 
     @Element(name = "commentRss", required = false)
-    String commentRss;
+    public String commentRss;
 
     @Element(name = "enclosure", required = false)
-    Enclosure enclosure;
+    public Enclosure enclosure;
 
     @Element(name = "guid", required = false)
-    Guid guid;
+    public Guid guid;
 
     @Element(name = "pubDate", required = false)
-    Date pubDate;
+    public Date pubDate;
 
     @Element(name = "source", required = false)
-    String source;
+    public String source;
 
     @ElementList(entry = "content", inline = true, required = false)
-    List<Content> contents;
+    public List<Content> contents;
 
     @Element(name = "thumbnail", required = false)
-    Thumbnail thumbnail;
+    public Thumbnail thumbnail;
 }

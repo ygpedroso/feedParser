@@ -7,20 +7,20 @@ import org.simpleframework.xml.Root;
 public class Image {
 
     @Element(name = "title", required = false)
-    String title;
+    public String title;
 
     @Element(name = "url", required = false)
-    String url;
+    public String url;
 
     @Element(name = "link", required = false)
-    String link;
+    public String link;
 
     @Element(name = "width", required = false)
-    String width;
+    public String width;
 
     @Element(name = "height", required = false)
-    String height;
+    public String height;
 
     @Element(name = "description", required = false, data = true)
-    String description;
+    public String description;
 }

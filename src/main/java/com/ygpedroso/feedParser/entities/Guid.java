@@ -8,9 +8,9 @@ import org.simpleframework.xml.Text;
 public class Guid {
 
     @Text()
-    String value;
+    public String value;
 
     @Attribute(name = "isPermaLink", required = false)
-    Boolean isPermaLink;
+    public Boolean isPermaLink;
 
 }

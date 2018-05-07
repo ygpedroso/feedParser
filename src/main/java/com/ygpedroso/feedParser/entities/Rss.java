@@ -8,8 +8,8 @@ import org.simpleframework.xml.Root;
 public class Rss {
 
     @Attribute
-    private String version;
+    public String version;
 
     @Element
-    private Channel channel;
+    public Channel channel;
 }

@@ -7,17 +7,17 @@ import org.simpleframework.xml.Root;
 public class Content {
 
     @Attribute(name = "height", required = false)
-    String height;
+    public String height;
 
     @Attribute(name = "width", required = false)
-    String width;
+    public String width;
 
     @Attribute(name = "medium", required = false)
-    String medium;
+    public String medium;
 
     @Attribute(name = "type", required = false)
-    String type;
+    public String type;
 
     @Attribute(name = "url", required = false)
-    String url;
+    public String url;
 }

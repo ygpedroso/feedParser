@@ -22,41 +22,41 @@ public class Channel {
     public List<Item> items;
 
     @Element
-    String title;
+    public String title;
 
     @Element
-    String language;
+    public String language;
 
     @Element(name = "description", required = false)
-    String description;
+    public String description;
 
     @Element(name = "pubDate", required = false)
-    Date pubDate;
+    public Date pubDate;
 
     @Element(name = "lastBuildDate", required = false)
-    Date lastBuildDate;
+    public Date lastBuildDate;
 
     @Element(name = "managingEditor", required = false)
-    String managingEditor;
+    public String managingEditor;
 
     @Element(name = "generator", required = false)
-    String generator;
+    public String generator;
 
     @Element(name = "docs", required = false)
-    String docs;
+    public String docs;
 
     @Element(name = "updatePeriod", required = false)
-    String updatePeriod;
+    public String updatePeriod;
 
     @Element(name = "updateFrequency", required = false)
-    String updateFrequency;
+    public String updateFrequency;
 
     @Element(name = "copyright", required = false)
-    String copyright;
+    public String copyright;
 
     @Element(name = "ttl", required = false)
-    String ttl;
+    public String ttl;
 
     @Element(name = "image", required = false)
-    Image image;
+    public Image image;
 }
