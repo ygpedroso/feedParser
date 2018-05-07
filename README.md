@@ -17,7 +17,7 @@ allprojects {
 
 Add the following line to the `dependencies` section of your `build.gradle` file:
 ```groovy
-implementation 'com.github.ygpedroso:feedParser:0.1'
+implementation 'com.github.ygpedroso:feedParser:0.2'
 ```
 
 ### Maven
@@ -37,7 +37,7 @@ Add the dependency in your `build` file:
 <dependency>
     <groupId>com.github.ygpedroso</groupId>
     <artifactId>feedParser</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
 </dependency>
 ```
 
