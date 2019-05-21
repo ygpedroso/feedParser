@@ -7,7 +7,7 @@ import org.simpleframework.xml.Text;
 @Root(strict = false)
 public class Title {
 
-    @Text
+    @Text(required = false)
     public String value;
 
     @Attribute(name = "type", required = false)

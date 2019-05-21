@@ -18,16 +18,16 @@ import java.util.*;
 @Root(name = "item", strict = false)
 public class Item {
 
-    @ElementList(entry = "title", inline = true, data = true)
+    @ElementList(entry = "title", inline = true, data = true, required = false)
     public List<Title> titles;
 
-    @Element(name = "link")
+    @Element(name = "link", required = false)
     public String link;
 
     @Element(name = "url", required = false)
     public String url;
 
-    @ElementList(entry = "description", inline = true, data = true)
+    @ElementList(entry = "description", inline = true, data = true, required = false)
     public List<String> descriptions;
 
     @Element(name = "encoded", data = true, required = false)

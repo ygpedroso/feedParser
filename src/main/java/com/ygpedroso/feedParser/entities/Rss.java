@@ -7,9 +7,9 @@ import org.simpleframework.xml.Root;
 @Root(strict = false)
 public class Rss {
 
-    @Attribute
+    @Attribute(required = false)
     public String version;
 
-    @Element
+    @Element(required = false)
     public Channel channel;
 }

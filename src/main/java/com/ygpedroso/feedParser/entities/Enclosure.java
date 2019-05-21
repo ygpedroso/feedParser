@@ -6,10 +6,10 @@ import org.simpleframework.xml.Root;
 
 @Root(strict = false)
 public class Enclosure {
-    @Attribute
+    @Attribute(required = false)
     public String url;
 
-    @Attribute
+    @Attribute(required = false)
     public String type;
 
     @Attribute(required = false)

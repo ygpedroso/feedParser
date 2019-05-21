@@ -18,13 +18,13 @@ public class Channel {
     @ElementList(entry = "link", inline = true, required = false)
     public List<Link> links;
 
-    @ElementList(entry = "item", inline = true)
+    @ElementList(entry = "item", inline = true, required = false)
     public List<Item> items;
 
-    @Element
+    @Element(required = false)
     public String title;
 
-    @Element
+    @Element(required = false)
     public String language;
 
     @Element(name = "description", required = false)
